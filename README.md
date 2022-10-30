@@ -28,7 +28,7 @@
 ## Access
 
 - The link to my Github repository: https://github.com/EvolanGIT/passGen-challenge-wk3
-- The launched website: 
+- The launched website: https://evolangit.github.io/passGen-challenge-wk3/
 
 
 ## Visuals
