@@ -37,8 +37,9 @@ function generatePassword() {
         var confirmNum = window.confirm("would you like to use numbers?")
         var confirmSpec = window.confirm("would you like to use special characters?")
         
-        if (!confirmLower && !confirmUpper && !confirmNum && !confirmSpec)
+        if (!confirmLower && !confirmUpper && !confirmNum && !confirmSpec){
         window.alert("you need at least one choice");
+        return generatePassword()}
         
 
         if (confirmLower) {
