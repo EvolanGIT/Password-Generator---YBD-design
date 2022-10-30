@@ -15,19 +15,20 @@ var finalArray = [];
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 function generatePassword() {
-    var confirmLength = window.prompt("please choose the length of your Password. It should be between 8 and 128 characters.");
+    var confirmLength = window.prompt ("please choose the length of your Password. It should be between 8 and 128 characters.");
     passLength = confirmLength;
     console.log(confirmLength);
     console.log(length);
     if (confirmLength >= 129) {
         window.alert("The password should be shorter than 128 characters.");
-        return generatePassword();
+        return generatePassword()
     }   if (confirmLength <= 7) {
         window.alert("The password should have at least 8 characters.");
-        return generatePassword();
+        return generatePassword()
     }   if (isNaN(confirmLength)) {
         window.alert("please choose a numeric value.");
-        return generatePassword ()
+        return generatePassword()
+        
     }  
     
     else {
@@ -36,6 +37,10 @@ function generatePassword() {
         var confirmNum = window.confirm("would you like to use numbers?")
         var confirmSpec = window.confirm("would you like to use special characters?")
         
+        if (!confirmLower && !confirmUpper && !confirmNum && !confirmSpec)
+        window.alert("you need at least one choice");
+        
+
         if (confirmLower) {
             bigArray.push(lowerCase);
             console.log(bigArray);
@@ -52,16 +57,17 @@ function generatePassword() {
             bigArray.push(special);
             console.log(bigArray);
         }
-        if (!confirmLower && !confirmUpper && !confirmNum && !confirmSpec)
-        alert("You need at least one choice!!!");
-        
+        console.log(bigArray)
         var finalArray = bigArray.flat(1);
+        
+        let password = ""
     
-    for (let i = 0; i < finalArray; i++ ){
+        for (let i = 0; i < passLength; i++ ){
         var random  = Math.floor(Math.random() * finalArray.length)
         password += finalArray[random];
         
     }
+    return password;
 }}
 
 //Write password to the #password input
