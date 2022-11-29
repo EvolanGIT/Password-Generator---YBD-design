@@ -1,4 +1,4 @@
-# PassGen-Challenge-wk3
+# Password Generator by YBD design
 
 ## Description
 
