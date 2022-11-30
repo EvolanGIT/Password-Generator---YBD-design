@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# PassGen- Password Generator
-=======
 # Password Generator by YBD design
->>>>>>> 7562e67133b4e33b3c4dfb4097feb2e5c8ec9e93
 
 ## Description
 
