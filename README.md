@@ -27,8 +27,8 @@
 
 ## Access
 
-- The link to my Github repository: https://github.com/EvolanGIT/passGen-challenge-wk3
-- The launched website: https://evolangit.github.io/passGen-challenge-wk3/
+- The link to my Github repository: https://github.com/EvolanGIT/Password-Generator---YBD-design
+- The launched website: https://evolangit.github.io/Password-Generator---YBD-design/
 
 
 ## Visuals
