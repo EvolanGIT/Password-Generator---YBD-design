@@ -1,4 +1,4 @@
-# PassGen-Challenge-wk3
+# PassGen- Password Generator
 
 ## Description
 
@@ -35,7 +35,7 @@
 
 This is the screenshot of the full-size website portfolio.
     
-![alt fullsite](assets\images\passGenGif.gif)
+![alt fullsite](./assets/images/passGenGif.gif)
     
 
 ## Credits
